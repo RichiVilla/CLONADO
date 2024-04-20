@@ -1,22 +1,17 @@
 import React from 'react';
 import './CenteredCloset.css'; 
-!important;
+import CarouselShirt from './Carousels/CarouselShirt';
+import CarouselPants from './Carousels/CarouselPants';
 
 const CenteredCloset = () => {
   return (
-    <div className="centered-closet">
-      <div className="centered-box">
-        <div className="vertical-section">
-          <div className="horizontal-section">
-            <div className="arrow-left">←</div>
-          </div>
-          <div className="horizontal-section">
-            <div className="photo">Foto</div>
-          </div>
-          <div className="horizontal-section">
-            <div className="arrow-right">→</div>
-          </div>
-        </div>
+    <div className="row col-4 offset-4 centered-closet text-center">
+      <h2>Make your outfit</h2>
+      <div className="col-6 offset-3 mt-3">
+        <CarouselShirt/>
+      </div>
+      <div className="col-6 offset-3 mt-3 mb-3">
+        <CarouselPants/>
       </div>
     </div>
   );

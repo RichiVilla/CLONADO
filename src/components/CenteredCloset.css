@@ -1,45 +1,5 @@
 .centered-closet {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
-    background-color: #bc3434;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 15%;
+    background-color: #f0f0f0; 
   }
-  
-  .centered-box {
-    width: 90%;
-    height: 90%;
-    background-color: #c63535;
-    display: flex;
-  }
-  
-  .vertical-section {
-    width: 33.33%;
-    height: 100%;
-    border-right: 1px solid #d62f2f;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .horizontal-section {
-    height: 33.33%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .arrow-left, .arrow-right {   
-    font-size: 24px;
-  }
-  
-  .photo {
-    width: 100px;
-    height: 100px;
-    background-color: #e41515;
-  }
-  
